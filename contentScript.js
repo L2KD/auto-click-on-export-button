@@ -2,7 +2,7 @@ if(typeof init === 'undefined') {
   const init = function(){
     var url = window.location.href;
     if (url.indexOf('http://portal.jka.vn:8090/Project/CheckReport') >= 0) {
-      var randomTimeArray = [10, 11, 13, 14, 15];
+      var randomTimeArray = [10, 11, 12, 13, 14, 15];
       var preClassElementList = document.getElementsByClassName("pre1");
       if (preClassElementList.length > 0) {
         var preClassElement = preClassElementList[0];
